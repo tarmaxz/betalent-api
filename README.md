@@ -95,7 +95,8 @@ O valor total é calculado no backend a partir dos produtos e quantidades. O sis
 
 ```bash
 docker-compose exec app php artisan migrate:fresh --seed  # Recriar banco
-docker-compose exec app php artisan test                   # Rodar testes
 docker-compose logs -f app                                 # Ver logs
 docker-compose down                                        # Parar tudo
 ```
+
+Não foi possível implementar a lógica do teste devido à limitação de tempo
